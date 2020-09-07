@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Connamder.Controller
 {
+
+    //Route to call end point commands
     [Route("api/commands")]
     [ApiController]
     public class CommandsController : ControllerBase
